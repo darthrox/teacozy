@@ -1,3 +1,27 @@
 body {
-  background-color: #0F0;
+  background-color: #000;
+  
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  
+  text-align: center;
+}
+
+/* HEADER */
+
+/* END: HEADER */
+
+/* MAIN */
+
+/* END: MAIN */
+
+/* FOOTER */
+
+/* END: FOOTER */
+
+/* Add a border for debugging or simpler alignment */
+.debug {
+  border: 1px dotted #F00;
 }

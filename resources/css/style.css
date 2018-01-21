@@ -11,7 +11,7 @@ html, body, h1, h2, h3, h4, h5 {
   opacity: 0.9;
 }
 body {
-  /* to align every page content in a column */
+  /* to align every pagecontent in a column */
   display: flex;
   flex-flow: column;
   /* and without any borders */
@@ -100,7 +100,7 @@ body {
     flex-direction: column;
     justify-content: center;
     
-    margin-top: 25px;
+    margin-top: 50px;
     width: 1000px;
   }
   .secondRowHeader {
@@ -129,11 +129,59 @@ body {
     opacity: 0.9;
   }
   /* END: Second Row : Tea of the Month */
+  
+  /* Third Row : Locations */
+  .thirdRowContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-top: 50px;
+    
+    width: 1200px;
+    height: 600px;
+    
+    background-image: url(../images/img-locations-background.jpg);
+  }
+  .thirdRowHeader {
+
+  }
+  .thirdRowContent {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    
+    width: 100%;
+  }
+  .thirdRowContentPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 300px;
+    
+    background-color: black;
+    color: seashell;
+    opacity: 1.0;
+  }
+  /* END: Third Row : Locations */
 
 /* END: MAIN */
 
 /* FOOTER */
-
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .footerContact {
+    height: 200px;
+  }
+  .footerCopyright {
+    text-align: left;
+  
+    margin-left: 20px;
+  }
 /* END: FOOTER */
 
 /* Add a border for debugging or simpler alignment */
